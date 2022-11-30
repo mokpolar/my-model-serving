@@ -35,3 +35,8 @@ twine upload --repository-url {target} dist/my-model-serving-0.0.1.tar.gz
 # how to install package from remote
 pip install --index-url {target} my-model-serving
 ```
+
+## Start server
+```bash
+gunicorn -w 1 -k uvicorn.workers.UvicornWorker app.app:app
+```
