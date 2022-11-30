@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+app/__init__.py
+app/main.py
+my_model_serving.egg-info/PKG-INFO
+my_model_serving.egg-info/SOURCES.txt
+my_model_serving.egg-info/dependency_links.txt
+my_model_serving.egg-info/top_level.txt
